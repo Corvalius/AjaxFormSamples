@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxForm", "AjaxForm\AjaxForm.csproj", "{CF9CA3EA-0D8B-4F12-8E92-7E4D1BDE96DD}"
+EndProject
+Global
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 16f77b66-45ca-423b-93c8-a82a7d01a818
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF9CA3EA-0D8B-4F12-8E92-7E4D1BDE96DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF9CA3EA-0D8B-4F12-8E92-7E4D1BDE96DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF9CA3EA-0D8B-4F12-8E92-7E4D1BDE96DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF9CA3EA-0D8B-4F12-8E92-7E4D1BDE96DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

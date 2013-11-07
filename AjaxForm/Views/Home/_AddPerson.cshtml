@@ -1,0 +1,19 @@
+﻿@model AjaxFormSample.Models.PersonModel
+
+@using(Ajax.BeginForm("AddPerson", new AjaxOptions { OnBegin = "onBegin(xhr)", OnSuccess = "onSuccess(data, status, xhr)", OnFailure = "onFailure(xhr, status, error)", OnComplete = "onComplete(xhr, status)" }))
+{
+    @Html.HiddenFor(x => x.Id)
+    @Html.EditorFor(x => x.Name)
+    @Html.ValidationMessageFor(x => x.Name)
+
+    <button type="submit">Submit</button>
+}
+
+@using (Ajax.BeginForm("AddPersonThrowsException", new AjaxOptions { OnBegin = "onBegin(xhr)", OnSuccess = "onSuccess(data, status, xhr)", OnFailure = "onFailure(xhr, status, error)", OnComplete = "onComplete(xhr, status)" }))
+{
+    @Html.HiddenFor(x => x.Id)
+    @Html.EditorFor(x => x.Name)
+    @Html.ValidationMessageFor(x => x.Name)
+
+    <button type="submit">Submit Throws Exception</button>
+}
